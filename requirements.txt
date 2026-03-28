@@ -1,1 +1,8 @@
 
+streamlit
+openai
+imaplib
+twilio
+pandas
+schedule
+watchdog
