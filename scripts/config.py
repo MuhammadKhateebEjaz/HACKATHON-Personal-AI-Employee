@@ -4,8 +4,11 @@ import os
 load_dotenv()
 
 CONFIG = {
+    # Gmail
     "gmail_user": os.getenv("GMAIL_USER"),
     "gmail_pass": os.getenv("GMAIL_PASS"),
+
+    # WhatsApp
     "twilio_sid": os.getenv("TWILIO_SID"),
     "twilio_auth_token": os.getenv("TWILIO_AUTH_TOKEN"),
     "twilio_from": os.getenv("TWILIO_FROM"),
