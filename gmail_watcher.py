@@ -1,4 +1,3 @@
-
 import time
 
 class GmailWatcher:
@@ -8,8 +7,7 @@ class GmailWatcher:
 
     def start(self):
         print(f"[GMAIL] Watching emails for {self.email_user}...")
-        # Placeholder loop
-        # Replace with actual IMAP logic
+        # Placeholder for IMAP logic
         # while True:
         #     check_emails()
         #     time.sleep(60)
